@@ -6,4 +6,3 @@ results/*.txt
 results/*.csv
 results/*.png
 *.h5
-data/*
