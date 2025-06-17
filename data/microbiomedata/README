@@ -1,0 +1,11 @@
+File meanings:
+
+all_label: contains labels from 0 to 4 representing the frequencies of consumption on a 5 point scale
+
+all_otu: otus containing frequency data for full sequence length with no truncation
+
+binary24_label: contains 0 and 1 labels where the 2-4 labels from all_label were grouped into the 1 (positive) class and 0 and 1 were grouped to form the 0 (negative) class. You can check the positive and negative class numbers in my thesis to see if this grouping was used for anything.
+
+binary34_label: contains 0 and 1 labels where the 3,4 labels from all_label were grouped into the 1 (positive) class and 0-2 were grouped to form the 0 (negative) class. You can check the positive and negative class numbers in my thesis to see if this grouping was used for anything.
+
+otu_512: otus containing frequency data for sequence length truncated to the 512 most frequent taxa
